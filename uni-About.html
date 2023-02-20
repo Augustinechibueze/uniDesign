@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>uni-About-Us</title>
+    <link rel="stylesheet" href="uni-About.css">
+    <script src="https://kit.fontawesome.com/2e63fec99b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="uni-home-page.css">
+    <script src="https://kit.fontawesome.com/2e63fec99b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.min.css" integrity="sha512-b42SanD3pNHoihKwgABd18JUZ2g9j423/frxIP5/gtYgfBz/0nDHGdY/3hi+3JwhSckM3JLklQ/T6tJmV7mZEw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav class="wow zoomInDown">
+            <img src="images/logo-white.png" alt="">
+            <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark close-icon" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="uni-About.html">about</a></li>
+                    <li><a href="uni-course.html">Course</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="uni-contact.html">contact</a></li>
+                </ul>
+            </div>
+        <i class="fa-solid fa-bars open-icon" onclick="showMenu()"></i>
+        </nav>
+        <h1 class="wow bounce">About Us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="course-row">
+            <div class="about-col">
+                <h1 class="wow shakeX">We are the world's largest university</h1>
+                <p class="wow slideInLeft">Lorem ipsum dolor sit amet, consectecttur adipisicing elit.
+                    pollentesque aliquet turpis nulla, eleifend 
+                    faucibus est sollicitudin ut. maecenas ut venenatisex,
+                    et dapibus purus. Donec sit amet nisl non justo
+                    malesuada fermentum. Donec eget felis dolor. suspendisse 
+                    condimentum vestibulum ex ac cursus. Nam pharetra
+                    viverra efficitur. sed pellentesque luctus arcu, quis
+                    finibus nibh luctus mattis
+                </p>
+                <button class="hero-btn">
+                        <a href="" class="red-btn">visit us to know more </a>      
+                </button>
+            </div>
+            <div class="about-col wow slideInRight">
+                <img src="images/uni-uni-4.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+
+        <section class="footer wow zoomInUp">
+        <h4 class="text-about">About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. consectetur adipisicing elit. pellentesque aliquam turpis nulla, eleifend faucibus est <br/>
+                sollicitudin ut. maecenas ut venenatis ex, et dapibus purus</p>
+                <div class="footer-icon">
+                        <i class="fa-brands fa-facebook-f  footer-icon-style"></i>
+                        <i class="fa-brands fa-twitter footer-icon-style"></i>
+                        <i class="fa-brands fa-instagram footer-icon-style"></i>
+                        <i class="fa-brands fa-linkedin footer-icon-style"></i>
+                </div>
+                <h5 class="footer-text">Made with <i class="fa-regular fa-heart footer-icon-style"></i> by Sir Augustine Chibueze</h5>
+    </section>
+
+
+
+
+
+
+    <button disabled="disabled">hhhh</button>
+    <!-- <div class="new-div"></div> -->
+    <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.visibility = "visible";
+                navLinks.style.opacity = "1";
+                navLinks.style.transition = "1s linear";
+            }
+            function hideMenu(){
+                navLinks.style.visibility = "hidden";
+                navLinks.style.opacity = "0";
+                navLinks.style.transition = "1.5s";
+                } 
+         </script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+         </script>
+         <script>
+                new WOW().init();
+            </script>
+</body>
+</html>
